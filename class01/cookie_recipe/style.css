@@ -1,0 +1,29 @@
+body {
+	background:#FFFFEE;
+	border: 1px solid black;
+}
+
+img {
+		border-style:solid;
+		border-color:black;
+		border-width:1px;
+}
+
+h2.caroline {
+    color:#887;
+}
+
+a {
+    color:#900;
+} 
+
+h3.food {
+	color:#FF6640;
+	font-family: helvetica;
+	text-align: center;
+}
+
+body.better {
+	font-family: helvetica;
+	color:#607E99x;
+}
