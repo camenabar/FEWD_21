@@ -1,0 +1,135 @@
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+body {
+     color: #606161;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+     margin: 0;
+     padding: 0;
+}
+
+.container {
+     width: 100%;
+     max-width: 800px;
+     margin: 0 auto;
+     padding: 0 15px;
+}
+
+.button {
+     display: inline-block;
+     border-radius: 5px;
+     background: yellow;
+     text-align: center;
+     padding: 10px 30px;
+     max-width: 400px;
+}
+
+header .content {
+    text-align: center;
+}
+
+header p {
+     font-size: 18px;
+     font-weight: 600;
+     color: white;
+}
+
+header a {
+     text-align: center;
+     font-weight: 800;
+     font-size: 14px;
+     color: #033048;
+}
+
+
+a {
+     color: #033048;
+     text-decoration: none;
+}
+
+p {
+     font-size: 13px;
+     font-weight: 300;
+}
+
+ul {
+     font-size: 13px;
+     font-weight: 300;
+}
+
+.header {
+    background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+    background-size: cover;
+    padding: 25px 0 130px;
+}
+
+.logoHEADER {
+     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+     font-size: 24px;
+     font-weight: 800;
+     color: white;
+}
+
+.quote {
+    background-size: cover;
+    padding: 25px 0 130px;
+
+h1 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #033048;
+}
+
+#benefits {
+    background: white;
+}
+
+.quote {
+    text-align: center;
+    color: #033048;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#signup {
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.footer {
+     margin: 0 auto;
+     padding: 0 15px;
+     background: #121212;
+}
+
+footer p {
+    font-weight: 600;
+    font-size: 9px;
+    color: white;
+}
+
+footer h1 {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+
+
+
+
