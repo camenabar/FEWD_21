@@ -1,0 +1,25 @@
+* {
+	box-sizing: border-box;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+.topLogo {
+	text-align: center;
+	width: 100%;
+	height: auto;
+	padding-top: 20px;
+}
+
+.topLogo img {
+	max-width: 40%;
+}
