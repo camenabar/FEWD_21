@@ -13,18 +13,32 @@
 * html .clearfix             { zoom: 1; } /* IE6 */
 *:first-child+html .clearfix { zoom: 1; } /* IE7 */
 
+.wrapper {
+	margin: 0 auto;
+	width: 100%;
+}
+
+#top-nav {
+     width: 100%;
+     margin: 0 auto;
+     padding: 30px;
+}
 
 #header {
 	width: 100%;
     padding: 0 15px;
-	background: #E6E7E8;
 }
 
 /* social nav */
 
 .social {
-
+	margin: 30px 0 0 0;
 }
+
+.logoMain {
+	float: left;
+}
+
 
 .social li {
 	display: inline-block;
@@ -33,19 +47,19 @@
 }
 
 .social a {
+	font-size: 20px;
 	padding: 10px;
 	text-decoration: none;
 	display: block;
-	margin-left: 8px;
+	margin-left: 12px;
 	width: 35px;
 	height: 35px;
 	border-radius: 100%;
-	border: 1px solid #ffffff;
 	position: relative;
 }
 
 .social a i {
-	color: #ffffff;
+	color: #E6E7E8;
 	position: absolute;
 	left: 50%;
 	top: 50%;
@@ -57,15 +71,13 @@
 	color: #19F9CE;
 }
 
-/* logo intro section */
-
-
-.logo {
-	background-color: #DDCDB8;
-}
+/* intro section */
 
 .bio {
-	background-color: #DDCDB8;
+	font-family: 'Source Sans Pro', Helvetica, Arial, sans-erif;
+	font-size: 65px;
+	font-weight: 900;
+	margin-top: 30px 0 0 30px;
 }
 
 
@@ -83,7 +95,7 @@
 
 footer {
 	width: 100%;
-	height: 20px;
+	height: 200px;
 	margin: auto 0;
 	background-color: #DDCDB8
 }
